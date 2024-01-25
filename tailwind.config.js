@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'portada': "url('./img/portada.png')",
+        'portada': "url('/img/portada.png')",
       }
     },
   },
