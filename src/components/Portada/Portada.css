@@ -1,16 +1,16 @@
-.portada {
+/* .portada {
   background-image: url('/img/portada.png');
   background-size: cover;
   min-height: calc(102vh - 108px);
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.portada img {
+} */
+/* .portada img {
   margin-left: 900px;
   margin-top: 150px;
-}
-.portada h2 {
+} */
+/* .portada h2 {
   color: white ;
   font-size: 40px;
   font-weight: 200;
@@ -18,4 +18,4 @@
   position: absolute;
   bottom: 0;
   margin-bottom: 120px;
-}
+} */
