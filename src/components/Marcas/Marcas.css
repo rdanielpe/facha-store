@@ -1,0 +1,8 @@
+.marcas {
+  background: linear-gradient(#6b8ea81f , #6b8ea8c9);
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+  gap: 150px;
+}

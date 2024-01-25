@@ -1,0 +1,95 @@
+.navbar {
+  position: absolute;
+  gap: 50px;
+  display: flex;
+  background-color: #02152382;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 65px;
+}
+
+.menu {
+  margin-left: 15px;
+  margin-right: 1500px;
+  border: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.menu:hover {
+  background-color: #252525ee;
+}
+.menu__text {
+  color: white;
+  font-size: 20px;
+}
+.line-ab {
+  display: flex;
+  flex-direction: column;
+  width: 28px;
+  height: 28px;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  background-color: white;
+  height: 2px;
+  width: 100%;
+  border-radius: 5px;
+  transition: all .5s;
+  transform-origin: left;
+}
+.menu:hover > .line-ab > div:first-child {
+  transform: rotate(45deg);
+}
+.menu:hover > .line-ab > div:nth-child(2) {
+  opacity: 0;
+}
+.menu:hover > .line-ab > div:last-child {
+  transform: rotate(-45deg);
+}
+
+.user {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: black;
+
+}
+.user:hover {
+  background-color: #252525ee;
+  scale: 1.03;
+}
+
+.carrito-nav {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  color: black;
+  position: relative;
+}
+.carrito-nav:hover {
+  scale: 1.03;
+  background-color: #252525ee;
+}
+
+.carrito-nav div{
+  color: white;
+  width: 17px;
+  height: 17px;
+  background-color:var(--hospital-blue);
+  border-radius: 50%;
+  font-size: var(--sm);
+  font-weight: bold;
+  position: absolute;
+  top: 6px;
+  right: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .8;
+}
