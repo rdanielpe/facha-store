@@ -2,7 +2,7 @@ import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import Portada from './components/Portada/Portada'
 import Marcas from './components/Marcas/Marcas'
-import CartWidget from './components/CardWidget/CardWidget'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
 
       <Marcas/>
 
-      <CartWidget/>
+      <ItemListContainer greeting={"LO MAS VENDIDO"}/>
 
     </>
   )

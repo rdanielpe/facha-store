@@ -1,10 +1,11 @@
-import "./CardWidget.css"
+import "./ItemListContainer.css"
 
 
-const CardWidget = () => {
+// eslint-disable-next-line react/prop-types
+const ItemListContainer = ({greeting}) => {
   return (
     <>
-      <h2 className="top-card">LO MAS VENDIDO</h2>
+      <h2 className="top-card">{greeting}</h2>
 
       <div className="section-card">
         <div className="card-producto">
@@ -82,4 +83,4 @@ const CardWidget = () => {
     </>
   );
 };
-export default CardWidget;
+export default ItemListContainer;

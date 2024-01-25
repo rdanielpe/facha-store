@@ -1,0 +1,28 @@
+
+.carrito-nav {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  color: black;
+  position: relative;
+}
+.carrito-nav:hover {
+  scale: 1.03;
+  background-color: #252525ee;
+}
+
+.carrito-nav div{
+  color: white;
+  width: 17px;
+  height: 17px;
+  background-color:var(--hospital-blue);
+  border-radius: 50%;
+  font-size: var(--sm);
+  font-weight: bold;
+  position: absolute;
+  top: 6px;
+  right: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .8;
+}
