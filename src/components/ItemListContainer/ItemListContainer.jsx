@@ -21,7 +21,7 @@ const ItemListContainer = ({greeting}) => {
               L
             </option>
           </select>
-          <button className="carrito">
+          <button className="carrito px-6 py-1.5">
             <img src="/img/carrito.png" alt="" />
           </button>
         </div>
@@ -39,7 +39,7 @@ const ItemListContainer = ({greeting}) => {
               L
             </option>
           </select>
-          <button className="carrito">
+          <button className="carrito px-6 py-1.5">
             <img src="/img/carrito.png" alt="" />
           </button>
         </div>
@@ -57,7 +57,7 @@ const ItemListContainer = ({greeting}) => {
               L
             </option>
           </select>
-          <button className="carrito">
+          <button className="carrito px-6 py-1.5">
             <img src="/img/carrito.png" alt="" />
           </button>
         </div>
@@ -75,7 +75,7 @@ const ItemListContainer = ({greeting}) => {
               L
             </option>
           </select>
-          <button className="carrito">
+          <button className="carrito px-6 py-1.5">
             <img src="/img/carrito.png" alt="" />
           </button>
         </div>
