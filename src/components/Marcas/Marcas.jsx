@@ -4,11 +4,11 @@ const Marcas = () => {
   return (
     <>
     <div className="marcas">
-      <img src="/public/img/maui (1).png" alt="" />
-      <img src="/public/img/dooaustralia.png" alt="" />
-      <img src="/public/img/fox.png" alt="" />
-      <img src="/public/img/ripcurl.png" alt="" />
-      <img src="/public/img/billabong.png" alt="" />
+      <img src="/img/maui (1).png" alt="" />
+      <img src="/img/dooaustralia.png" alt="" />
+      <img src="/img/fox.png" alt="" />
+      <img src="/img/ripcurl.png" alt="" />
+      <img src="/img/billabong.png" alt="" />
     </div>
   </>
   )

@@ -8,7 +8,7 @@ const CardWidget = () => {
 
       <div className="section-card">
         <div className="card-producto">
-          <img src="/public/img/polo1.png" alt="" />
+          <img src="/img/polo1.png" alt="" />
           <p className="nombre-producto">M A U I</p>
           <p className="precio-producto">$65</p>
           <select className="talla" name="talla" id="talla">
@@ -21,12 +21,12 @@ const CardWidget = () => {
             </option>
           </select>
           <button className="carrito">
-            <img src="/public/img/carrito.png" alt="" />
+            <img src="/img/carrito.png" alt="" />
           </button>
         </div>
 
         <div className="card-producto">
-          <img src="/public/img/polo2.png" alt="" />
+          <img src="/img/polo2.png" alt="" />
           <p className="nombre-producto">M A U I</p>
           <p className="precio-producto">$65</p>
           <select className="talla" name="talla" id="talla">
@@ -39,12 +39,12 @@ const CardWidget = () => {
             </option>
           </select>
           <button className="carrito">
-            <img src="/public/img/carrito.png" alt="" />
+            <img src="/img/carrito.png" alt="" />
           </button>
         </div>
 
         <div className="card-producto">
-          <img src="/public/img/polo3.png" alt="" />
+          <img src="/img/polo3.png" alt="" />
           <p className="nombre-producto">M A U I</p>
           <p className="precio-producto">$65</p>
           <select className="talla" name="talla" id="talla">
@@ -57,12 +57,12 @@ const CardWidget = () => {
             </option>
           </select>
           <button className="carrito">
-            <img src="/public/img/carrito.png" alt="" />
+            <img src="/img/carrito.png" alt="" />
           </button>
         </div>
 
         <div className="card-producto">
-          <img src="/public/img/polo4.png" alt="" />
+          <img src="/img/polo4.png" alt="" />
           <p className="nombre-producto">M A U I</p>
           <p className="precio-producto">$65</p>
           <select className="talla" name="talla" id="talla">
@@ -75,7 +75,7 @@ const CardWidget = () => {
             </option>
           </select>
           <button className="carrito">
-            <img src="/public/img/carrito.png" alt="" />
+            <img src="/img/carrito.png" alt="" />
           </button>
         </div>
       </div>

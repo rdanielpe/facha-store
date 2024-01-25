@@ -4,7 +4,7 @@ const Portada = () => {
   return (
     <>
     <div className="portada">
-      <img src="/public/img/logo.png" alt="" />
+      <img src="/img/logo.png" alt="" />
     </div>
     {/* <h2 className='titulo'>¡No te quedes sin la fach@ este verano !</h2> */}
     </>

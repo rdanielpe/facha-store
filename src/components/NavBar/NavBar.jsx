@@ -16,10 +16,10 @@ const NavBar = () => {
             </div>
           </button>
           <div className="user">
-            <img src="/public/img/user.png" alt="" />
+            <img src="/img/user.png" alt="" />
           </div>
           <div className="carrito-nav">
-            <img src="/public/img/bolsa.png" alt="" />
+            <img src="/img/bolsa.png" alt="" />
             <div>0</div>
           </div>
       </div>

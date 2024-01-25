@@ -1,5 +1,5 @@
 .portada {
-  background-image: url('/public/img/portada.png');
+  background-image: url('/img/portada.png');
   background-size: cover;
   min-height: calc(102vh - 108px);
   display: flex;
