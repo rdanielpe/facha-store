@@ -1,86 +1,36 @@
-import "./ItemListContainer.css"
+import "./ItemListContainer.css";
+import ItemList from "../ItemList/ItemList";
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 
+const ItemListContainer = ({ greeting }) => {
+  const [productos, setProductos] = useState([]);
+  const {categoryId} = useParams()
 
-// eslint-disable-next-line react/prop-types
-const ItemListContainer = ({greeting}) => {
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("./productos.json");
+        const data = await response.json();
+        setProductos(data);
+      } catch (error) {
+        console.log("Error fetch" + error);
+      }
+    };
+
+    fetchData();
+  }, [categoryId]);
+
   return (
-    <>
-      <h2 className="top-card">{greeting}</h2>
+    <div>
+      <h1>{greeting}</h1>
 
-      <div className="section-card">
-        <div className="card-producto">
-          <img src="/img/polo1.png" alt="" />
-          <p className="nombre-producto">M A U I</p>
-          <p className="precio-producto">$65</p>
-          <select className="talla" name="talla" id="talla">
-            <option className="tallas">TALLA</option>
-            <option className="tallas" value="">
-              M
-            </option>
-            <option className="tallas" value="">
-              L
-            </option>
-          </select>
-          <button className="carrito px-6 py-1.5">
-            <img src="/img/carrito.png" alt="" />
-          </button>
-        </div>
-
-        <div className="card-producto">
-          <img src="/img/polo2.png" alt="" />
-          <p className="nombre-producto">M A U I</p>
-          <p className="precio-producto">$65</p>
-          <select className="talla" name="talla" id="talla">
-            <option className="tallas">TALLA</option>
-            <option className="tallas" value="">
-              M
-            </option>
-            <option className="tallas" value="">
-              L
-            </option>
-          </select>
-          <button className="carrito px-6 py-1.5">
-            <img src="/img/carrito.png" alt="" />
-          </button>
-        </div>
-
-        <div className="card-producto">
-          <img src="/img/polo3.png" alt="" />
-          <p className="nombre-producto">M A U I</p>
-          <p className="precio-producto">$65</p>
-          <select className="talla" name="talla" id="talla">
-            <option className="tallas">TALLA</option>
-            <option className="tallas" value="">
-              M
-            </option>
-            <option className="tallas" value="">
-              L
-            </option>
-          </select>
-          <button className="carrito px-6 py-1.5">
-            <img src="/img/carrito.png" alt="" />
-          </button>
-        </div>
-
-        <div className="card-producto">
-          <img src="/img/polo4.png" alt="" />
-          <p className="nombre-producto">M A U I</p>
-          <p className="precio-producto">$65</p>
-          <select className="talla" name="talla" id="talla">
-            <option className="tallas">TALLA</option>
-            <option className="tallas" value="">
-              M
-            </option>
-            <option className="tallas" value="">
-              L
-            </option>
-          </select>
-          <button className="carrito px-6 py-1.5">
-            <img src="/img/carrito.png" alt="" />
-          </button>
-        </div>
-      </div>
-    </>
+      {productos.length == 0 ? (
+        <h1>No Productos</h1>
+      ) : (
+        <ItemList productos={productos}/>
+      )}
+    </div>
   );
 };
 export default ItemListContainer;
