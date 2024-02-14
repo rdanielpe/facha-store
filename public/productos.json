@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "nombre": "QUIKSILVER",
+    "precio": "40",
+    "img": "/img/1.jpeg",
+    "stock": "4"
+  },
+  {
+    "id": "2",
+    "nombre": "BILLABONG",
+    "precio": "40",
+    "img": "/img/2.jpeg",
+    "stock": "4"
+  },
+  {
+    "id": "3",
+    "nombre": "M A U I",
+    "precio": "40",
+    "img": "./img/3.jpeg",
+    "stock": "4"
+  },
+  {
+    "id": "4",
+    "nombre": "M A U I",
+    "precio": "40",
+    "img": "./img/4.jpeg",
+    "stock": "4"
+  },
+  {
+    "id": "5",
+    "nombre": "BILLABONG",
+    "precio": "40",
+    "img": "./img/5.jpeg",
+    "stock": "4"
+  },
+  {
+    "id": "6",
+    "nombre": "M A U I",
+    "precio": "40",
+    "img": "./img/6.jpeg",
+    "stock": "4"
+  },
+  {
+    "id": "7",
+    "nombre": "M A U I",
+    "precio": "40",
+    "img": "./img/7.jpeg",
+    "stock": "4"
+  },
+  {
+    "id": "8",
+    "nombre": "RIP CURL",
+    "precio": "40",
+    "img": "./img/8.jpeg",
+    "stock": "4"
+  },
+  {
+    "id": "9",
+    "nombre": "M A U I",
+    "precio": "40",
+    "img": "./img/9.jpeg",
+    "stock": "4"
+  }
+]
