@@ -9,9 +9,9 @@ const Footer = () => {
               className="flex items-center mb-4 space-x-3 sm:mb-0 rtl:space-x-reverse"
             >
               <img
-                src="../../../public/img/logo.png"
+                src="/img/logo.png"
                 className="h-20"
-                alt="Flowbite Logo"
+                alt="facha logo"
               />
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0 dark:text-gray-400">
