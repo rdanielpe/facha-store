@@ -1,6 +1,11 @@
-import "./CardWiget.css";
+import {useContext} from 'react';
+import { CartContext } from '../../context/CartContext';
+import "./CardWiget.css"
 
 const CartWidget = () => {
+
+  const {cartQuantity} = useContext(CartContext)
+
   return (
     <div className="carrito-nav">
       <svg
@@ -18,7 +23,9 @@ const CartWidget = () => {
         />
       </svg>
 
-      <div>0</div>
+      <div>
+      {cartQuantity() == 0 ? null : cartQuantity()}
+      </div>
     </div>
   );
 };
