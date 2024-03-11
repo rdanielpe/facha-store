@@ -176,7 +176,7 @@ const Checkout = () => {
 					<div className="flex flex-col items-center justify-center px-3 py-12 bg-white md:px-4">
 						<h2 className="text-lg font-medium leading-tight tracking-wider text-center text-gray-800 uppercase md:w-9/12 lg:w-7/12">¡Muchas gracias por tu compra {(buyer.name).toUpperCase()}!</h2>
 						<h2 className="text-center md:w-9/12 lg:w-7/12 ">¡Muchas gracias por tu compra {(buyer.name).toUpperCase()}!</h2>
-						<p className="mt-6 text-sm font-light leading-normal tracking-wide text-center text-gray-600 md:w-9/12 lg:w-7/12" >Te enviamos un mail a {(buyer.email).toLowerCase()} con tu orden de compra ID: {idCompra}. Esperamos que hayas tenido una agradable experiencia en D&A Fach@ ¡Hasta la próxima!</p>
+						<p className="mt-6 text-sm font-light leading-normal tracking-wide text-center text-gray-600 md:w-9/12 lg:w-7/12" >Te enviamos un mail a {(buyer.email).toLowerCase()} con tu orden de compra ID: {idCompra}.¡Gracias por visitar D&A Fach@! Esperamos que hayas encontrado lo que necesitabas. ¡Nos vemos pronto!</p>
 						<Link to="/" className="flex justify-center mt-6">
 							<button onClick={deleteCart} className="w-40 py-3 font-medium leading-normal tracking-wider text-center text-white uppercase bg-gray-700 cursor-pointer select-none text-xxs focus:outline-none focus:ring-transparent">
 								Volver al inicio
