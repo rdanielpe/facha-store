@@ -13,7 +13,7 @@ const ItemListContainer = ({ greeting }) => {
     //generamos el filtrado de los productos
     const misProductos = categoryId
       ? query(collection(db, "productos"), where("marca", "==", categoryId))
-      : collection(db, "item");
+      : collection(db, "productos");
 
     //generamos los documentos solicitados
     getDocs(misProductos).then((res) => {
