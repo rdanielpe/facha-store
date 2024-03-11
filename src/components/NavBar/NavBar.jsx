@@ -7,7 +7,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="relative z-50 flex flex-wrap items-center justify-between p-4 bg-[#03465E] lg:sticky">
+      <div className="absolute w-full top-0 z-50 flex flex-wrap items-center justify-between p-4 bg-[#021523a3] ">
         <div className="z-auto block cursor-pointer md:hidden">
           <button
             onClick={() => setOpen(!open)}
