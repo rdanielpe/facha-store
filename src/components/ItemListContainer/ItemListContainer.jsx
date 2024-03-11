@@ -26,7 +26,7 @@ const ItemListContainer = ({ greeting }) => {
   }, [categoryId]);
 
   return (
-    <div>
+    <div className="mt-32">
       <h1>{greeting}</h1>
 
       {productos.length == 0 ? (
