@@ -1,1 +1,1 @@
-Este es mi proyecto de mi e-comerce 
+Este es mi proyecto de react , una ecomerce de venta de polos 
