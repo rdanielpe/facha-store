@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
 import { Icon } from "@iconify/react";
+import ItemCount from "../ItemCount/ItemCount";
 
 const Cart = () => {
   const { cart, deleteItem, emptyCart, totalCart } = useContext(CartContext);
@@ -15,8 +16,8 @@ const Cart = () => {
             <img className="my-6 rounded-full" alt="" src="/img/facha.png" />
             <p className="font-bold">
               ¡Tu carrito está vacío! <br />
-              Añade un producto  para poder continuar ,
-              ¿ Estamos de acuerdo que Messi es mejor que Cristiano ?
+              Añade un producto para poder continuar , ¿ Estamos de acuerdo que
+              Messi es mejor que Cristiano ?
             </p>
             <Link
               to="/"
@@ -58,9 +59,17 @@ const Cart = () => {
                       </div>
                       <div className="flex mt-4 sm:space-y-6 sm:mt-0 sm:block sm:space-x-6">
                         <div className="flex items-center gap-3 pl-4 border-gray-100">
+                          <span className="cursor-pointer rounded-l bg-gray-100 py-1 px-3.5 duration-100 hover:bg-blue-500 hover:text-blue-50">
+                            {" "}
+                            -{" "}
+                          </span>
                           <p className="w-8 h-8 text-center bg-white border outline-none gap-2text-xs">
                             {item.cantidad}
                           </p>
+                          <span className="px-3 py-1 duration-100 bg-gray-100 rounded-r cursor-pointer hover:bg-blue-500 hover:text-blue-50">
+                            {" "}
+                            +{" "}
+                          </span>
                         </div>
                         <div className="flex items-center space-x-4">
                           <p className="text-sm">
