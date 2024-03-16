@@ -26,7 +26,7 @@ const CartWidget = () => {
       </svg>
           {
           cart.length > 0 ?
-          <span className="badge badge-sm indicator-item">
+          <span className="font-bold bg-white badge badge-sm indicator-item">
             {cartQuantity() == 0 ? null : cartQuantity()}
           </span> : <p className="hidden"></p>
           }
