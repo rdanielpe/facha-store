@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
 import { Icon } from "@iconify/react";
-import ItemCount from "../ItemCount/ItemCount";
 
 const Cart = () => {
   const { cart, deleteItem, emptyCart, totalCart } = useContext(CartContext);
