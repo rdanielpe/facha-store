@@ -87,9 +87,11 @@ const Checkout = () => {
 									<p>${totalCart()}</p>
 								</div>
 							</div>
-							<Link to='/cart' className="flex flex-row items-center mt-3 text-sm font-light leading-normal tracking-wide text-gray-600 lowercase">
+							<Link to='/cart' className="text-white bg-blue-500 rounded-md btn">
+
 								Volver al carrito
 							</Link>
+
 						</div>
 						{/* <button className="ml-2 bg-green-500 btn hover:bg-green-600" onClick={updateOrder}>actualizar datos</button>
 				<button className="ml-2 bg-red-600 btn hover:text-black hover:bg-white" onClick={batchUpdate}>Batch</button> */}
@@ -152,14 +154,14 @@ const Checkout = () => {
 									// Botón habilitado
 									<input
 										onClick={() => { saveOrder(); setShowModal(true) }}
-										className="w-full py-3 mt-6 font-medium leading-normal tracking-wider text-center text-white uppercase bg-gray-700 cursor-pointer select-none text-xxs focus:outline-none focus:ring-transparent"
+										className="w-full py-3 mt-6 font-medium leading-normal tracking-wider text-center text-white uppercase bg-blue-500 cursor-pointer select-none text-xxs focus:outline-none focus:ring-transparent"
 										type="submit"
 										value="Proceder al pago"
 									/>
 								) : (
 									// Botón deshabilitado
 									<input
-										className="w-full py-3 mt-6 font-medium leading-normal tracking-wider text-center text-white uppercase bg-gray-400 select-none text-xxs focus:outline-none focus:ring-transparent"
+										className="w-full py-3 mt-6 font-medium leading-normal tracking-wider text-center text-white uppercase bg-blue-300 select-none text-xxs focus:outline-none focus:ring-transparent"
 										type="submit"
 										value="Proceder al pago"
 										disabled
